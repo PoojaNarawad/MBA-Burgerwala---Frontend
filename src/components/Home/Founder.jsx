@@ -23,7 +23,7 @@ const Founder = () => {
                 
             <br/>
             Our aim is to create the most tasty burger on 
-            planer.
+            planet.
             </p>
         </motion.div>
     </section>

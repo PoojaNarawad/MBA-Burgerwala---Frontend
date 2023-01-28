@@ -8,7 +8,7 @@ export const Footer = () => {
         <h2>MBA Burger Wala</h2>
 
         <p>We are trying to give you the best 
-        taste prossible.</p>
+        taste possible.</p>
         <br/>
         <em>We give attention to genuine feedback.</em>
         <strong>All right recieved @mbaburgerwala</strong>

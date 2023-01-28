@@ -34,7 +34,7 @@ const Home = () => {
       transition={{
         delay:0.4,
       }}
-      >Explour more</motion.a>
+      >Explore more</motion.a>
     </section>
     <Founder/>
     <Menu/>

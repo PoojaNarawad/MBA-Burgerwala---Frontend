@@ -38,7 +38,7 @@ const Dashboard = () => {
 
   return (
     <section className="dashboard">
-      {loading === false ? (
+      {loading === true ? (
         <main>
           <article>
             <Box title="Users" value={213} />

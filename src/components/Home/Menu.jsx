@@ -28,7 +28,7 @@ const Menu = () => {
           delay={0.5}
         />
         <MenuCard
-          itemNum={1}
+          itemNum={3}
           burgerSrc={burger3}
           price={1800}
           title="Cheese BUrger With Fries"

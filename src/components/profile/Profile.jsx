@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import me from "../../assets/founder.jpg";
 import { Link } from "react-router-dom";
 import { MdDashboard } from "react-icons/md";
+import { useDispatch } from "react-redux";
+import { logout } from "../../redux/actions/user";
 
 const Profile = () => {
   const options = {
@@ -15,12 +17,18 @@ const Profile = () => {
       opacity: 1,
     },
   };
+
+  const dispatch = useDispatch();
+
+  const logoutHandler = () =>{
+dispatch(logout());
+  }
   return (
     <section className="profile">
       <main>
         <motion.img src={me} alt="User" {...options} />
         <motion.h5 {...options} transition={{ delay: 0.3 }}>
-          Pooja
+          Pooja Narawad
         </motion.h5>
         <motion.div {...options} transition={{ delay: 0.5 }}>
           <Link
@@ -58,6 +66,9 @@ const Profile = () => {
           transition={{
             delay: 0.3,
           }}
+
+          onClick={logoutHandler}
+
         >
           Logout
         </motion.button>

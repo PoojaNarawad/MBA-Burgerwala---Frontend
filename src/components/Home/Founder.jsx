@@ -19,7 +19,7 @@ const Founder = () => {
             <img src={me} alt="Founder"/>
             <h3>Pooja Narawad</h3>
             <p>Hey, Everyone I am Pooja Narawad,the founder 
-            of MSC BURGER WALI.
+            of MBA BURGER WALA.
                 
             <br/>
             Our aim is to create the most tasty burger on 
